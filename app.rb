@@ -1,5 +1,5 @@
 require 'sinatra'
-
+require 'kornelia_palindrome'
 get '/' do
   @title = 'Home' 
   erb :index
@@ -15,3 +15,7 @@ get '/palindrome' do
   erb :palindrome 
 end
 
+post '/check' do 
+  @phrase = params[:phrase]
+  erb :result
+end
