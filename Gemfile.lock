@@ -4,7 +4,7 @@ GEM
     ansi (1.5.0)
     builder (3.2.4)
     ffi (1.13.1)
-    kornelia_palindrome (0.1.0)
+    kornelia_palindrome (0.3.0)
     listen (3.3.3)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -43,7 +43,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  kornelia_palindrome (= 0.1.0)
+  kornelia_palindrome (= 0.3.0)
   minitest (= 5.11.3)
   minitest-reporters (= 1.2.0)
   nokogiri (= 1.8.5)
